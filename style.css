@@ -1,0 +1,138 @@
+@media only screen and (min-device-width: 150px){ 
+      body {
+      background-image: url('blablabu3.1.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center center;
+      font-family: monospace;
+      margin: 0;
+  }
+}  
+ .jumbotron h1 {
+    justify-content: start;
+    margin-left: 40px;
+    color: royalblue;
+    font-size: 150px;
+    margin-top: 0;
+    text-shadow: 8px 8px 20px #AA8E3C;
+    font-family: fantasy;
+}
+
+.jumbotron h2 {
+    text-align: center;
+}
+
+.jumbotron h3 {
+    margin-left: 40px;
+    font-family: monospace;
+    border-radius: 10px;
+}
+
+h4 { color: #666; margin: 0; text-transform:uppercase; }
+h4:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #019fb6;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+h4:hover:after { transform: scaleX(1); }
+h4.fromRight:after{ transform-origin:100% 50%; }
+h4.fromLeft:after{  transform-origin:  0% 50%; }
+
+.jumbotron h4 {
+    margin-left: 20px;
+    margin-right: 5px;
+    font-family: monospace;
+    background-color: rgb(13, 110, 253, 0.35);
+    border-radius: 5px;
+    width: 370px;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 150px;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+#borderLeft {
+  position: absolute;
+}
+
+.jumbotron h5 {
+    margin-left: 40px;
+    font-family: monospace;
+    font-weight: bold;
+    color: royalblue;
+    height: 2.5vw;
+}
+
+h6 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size:1.5vw;
+    font-family: monospace;
+    font-weight: bold;
+    color: royalblue;
+    border-radius: 10px;
+    height: 2.5vw;
+}
+
+.nav {
+   margin-top: 5px;
+   margin-right: 20px;
+   padding: 2px;
+}
+.btn-warning {
+  background-color: royalblue;
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px;
+  font-size: 1.2vw;
+  border-radius: 10px;
+  box-shadow: 8px 8px 20px #AA8E3C;
+}
+
+.my-custom-row1 {
+    margin: 10px;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: rgb(13, 110, 253, 0.35);
+    border-radius: 10px;
+}
+
+.image1 {
+  float: left;
+  height: 45px;
+  width: 130px;
+  position: relative;
+  left: 30px;
+  margin-top: 10px;
+}
+
+.image2 {
+  float: left;
+  width: 130px;
+  height: 45px;
+  position: relative;
+  left: 30px;
+  margin-top: 10px;
+}
+
+ a:link {
+text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
