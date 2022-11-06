@@ -65,7 +65,8 @@ h4.fromLeft:after{  transform-origin:  0% 50%; }
     font-family: monospace;
     font-weight: bold;
     color: royalblue;
-    height: 2.5vw;
+    font-size:18px;
+    width: 334px;
 }
 
 h6 {
