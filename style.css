@@ -27,7 +27,7 @@
     margin-left: 40px;
     font-family: monospace;
     border-radius: 10px;
-    30px
+    font-size: 20px;
 }
 
 h4 { color: #666; margin: 0; text-transform:uppercase; }
@@ -44,16 +44,22 @@ h4.fromLeft:after{  transform-origin:  0% 50%; }
 
 .jumbotron h4 {
     margin-left: 20px;
-    margin-right: 5px;
+    margin-right: 10px;
     font-family: monospace;
     background-color: rgb(13, 110, 253, 0.35);
     border-radius: 5px;
-    width: 385px;
+    width: 350px;
     height: 80px;
     padding-top: 20px;
     padding-left: 145px;
     font-size: 14px;    
     font-weight: bolder;
+}
+
+.footer {
+    padding-right: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
 }
 
 #borderLeft {
@@ -89,7 +95,7 @@ h6 {
   background-color: royalblue;
   border: none;
   color: white;
-  padding: 5px;
+  padding: 4px;
   text-align: center;
   text-decoration: none;
   margin: 2px;
