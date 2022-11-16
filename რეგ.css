@@ -1,0 +1,45 @@
+@media only screen and (min-device-width: 150px){ 
+      body {
+      background-image: url('blablabu3.1.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center center;
+      font-family: monospace;
+      margin: 0;
+  }
+} 
+
+h1 {
+	margin: 0;
+	font-size: 13vw;
+	color: royalblue;
+	margin-bottom: 20px;
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	font-size: 60px;
+	color: whitesmoke;
+	text-align: center;
+}
+
+li a {
+      font-size: 17px;
+      padding: 0.35em;
+      background-color: royalblue;
+      float: right;
+      color: white;
+      text-decoration: none !important;
+      border-radius: 4px;
+      box-shadow: 8px 8px 20px #AA8E3C;
+      margin-right: 2em;
+}
+
+.button:hover {background-color: #ffc107}
+
+.button:active {
+  transform: translateY(4px);
+}
