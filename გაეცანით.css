@@ -45,6 +45,10 @@ a {
       font-size: 2rem;
 }
 
+li {
+      list-style-type: none;
+}
+
 li a {
       font-size: 17px;
       padding: 0.35em;
