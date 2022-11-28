@@ -33,6 +33,12 @@ a {
   transform: translateY(4px);
 }
 
+.btnS:hover {background-color: rgb(109, 193, 109);}
+
+.btnS:active {
+  transform: translateY(4px);
+}
+
 
  h1 {
     margin-top: 15px;
