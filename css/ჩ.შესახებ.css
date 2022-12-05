@@ -1,46 +1,4 @@
-@media only screen and (min-device-width: 150px){  
-      body {
-      background-image: url('../img/blablabu3.1.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center center;
-      font-family: monospace;
-      margin: 0;
-  }
-}   
 
-a {
-      text-decoration: none;
-}
-li {
-    list-style-type: none;
-}
-
-li a {
-      font-size: 1.1em;
-      padding: 0.35em;
-      background-color: royalblue;
-      float: right;
-      color: white;
-      text-decoration: none !important;
-      border-radius: 4px;
-      box-shadow: 8px 8px 20px #AA8E3C;
-      margin-right: 2em;
-}
-
-.button:hover {background-color: #ffc107}
-
-.button:active {
-  transform: translateY(4px);
-}
-
-h1 {
-    margin-left: 2rem;
-    font-size: 5rem;
-    color: royalblue;  
-    text-shadow: 8px 8px 20px #AA8E3C;
-}
 
 h3 {
       margin-left: 40px;
@@ -105,14 +63,6 @@ h5 {
   margin-top: 10px;
 }
 
-.image3 {
-  float: left;
-  width: 130px;
-  height: 45px;
-  position: relative;
-  left: 30px;
-  margin-top: 10px;
-}
 
 .footer {
     padding-right: 10px;
@@ -121,9 +71,8 @@ h5 {
 }
 
 a {
-      text-decoration: none;
-      color: royalblue;
-      font-size: 18px;
+     
+      font-size: 22px;
       display: flex;
       justify-content: center;
 }

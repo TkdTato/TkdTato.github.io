@@ -16,32 +16,29 @@
 }
 
 
-a {
+.topnav a {
+    font-size: 1.2em;
+    display: inline-block;
     color: whitesmoke;
     text-decoration: none;
     margin-right: 1em;
-    line-height: 3em;
-    background-color: royalblue;
-    padding: 0.5em;
+    padding: 5px;
     border-radius: 5px;
     box-shadow: 8px 8px 20px #AA8E3C;
 }
 
-.button:hover {background-color: #E7B029;}
-
-.button:active {
-  transform: translateY(4px);
-}
 
 .btnS:hover {background-color: rgb(109, 193, 109);}
-
+.btnS {background-color: royalblue;}
 .btnS:active {
   transform: translateY(4px);
 }
 
 .adverts:hover {background-color: darkred;}
 .adverts {background-color: indianred;}
-
+.adverts:active {
+  transform: translateY(4px);
+}
 
  h1 {
     margin-top: 15px;
